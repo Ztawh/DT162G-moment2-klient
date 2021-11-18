@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(45deg,rgb(56, 56, 252) ,rgb(124, 0, 128), rgb(155, 1, 60));
+    background: linear-gradient(45deg,rgb(56, 56, 252) ,rgb(124, 0, 128), rgb(155, 1, 60), rgb(207, 4, 156));
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 100vh;
