@@ -9,7 +9,9 @@ Moment 2 - Javascriptbaserad webbutveckling
 const coursesEl = document.getElementById("courses");
 const messageEl = document.getElementById("message");
 
-const url = "http://localhost:3000/courses";
+// const url = "http://localhost:3000/courses";
+const url = "https://murmuring-ravine-91212.herokuapp.com/courses";
+
 
 // Lyssnare
 window.addEventListener("load", getCourses);
@@ -29,7 +31,7 @@ function getCourses() {
     <tr>
         <th>ID</th>
         <th>Kurskod</th>
-        <th>Kursnman</th>
+        <th>Kursnamn</th>
         <th class="center">Period</th>
         <th class="center">Radera</th>
     </tr>
